@@ -14,7 +14,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * todo 写下 你的注释
+ * servelet是否是线程安全的完全由它的实现来决定的，
+ * 如果它内部的属性或者方法会被多个线程改变，它就是线程不安全的，反之是安全的
  *
  * @author huwy
  * @version 1.0.0
